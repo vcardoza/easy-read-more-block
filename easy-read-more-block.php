@@ -4,7 +4,7 @@
  * Plugin Name:       Easy Read More Block
  * Description:       Block to search posts and add read more link in the post or pages.
  * Version:           0.1.0
- * Requires at least: 6.7
+ * Requires at least: 6.5
  * Requires PHP:      7.4
  * Author:            Vinoj Cardoza
  * Author URI:        https://vinojcardoza.com

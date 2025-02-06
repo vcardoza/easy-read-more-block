@@ -64,11 +64,11 @@
     },
     "linkClassName": {
       "type": "string",
-      "default": "dmg-read-more"
+      "default": "easy-read-more-block"
     },
     "paginationStyles": {
       "type": "string",
-      "default": "dmg-read-more-editor-pagination"
+      "default": "read-more-editor-pagination"
     }
   },
   "textdomain": "easy-read-more-block",
