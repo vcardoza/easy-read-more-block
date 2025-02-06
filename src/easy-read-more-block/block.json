@@ -1,0 +1,76 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "vinoj-cardoza/easy-read-more-block",
+	"version": "0.1.0",
+	"title": "Easy Read More Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Block to search posts and add read more link in the post.",
+	"supports": {
+		"html": false,
+		"color": {
+			"background": true,
+			"text": true,
+			"link": true
+		},
+		"spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true,
+			"textAlign": true,
+			"fontWeight": true
+		}
+	},
+	"attributes": {
+		"readMoreText": {
+			"type": "string",
+			"default": "Read more"
+		},
+		"selectedPostType": {
+			"type": "string",
+			"default": "post"
+		},
+		"searchPostText": {
+			"type": "string",
+			"default": ""
+		},
+		"selectedPostId": {
+			"type": "number",
+			"default": ""
+		},
+		"selectedPostTitle": {
+			"type": "string",
+			"default": ""
+		},
+		"selectedPostPermalink": {
+			"type": "string",
+			"default": ""
+		},
+		"selectedLinkTarget": {
+			"type": "string",
+			"default": "_self",
+			"enum": ["_self", "_blank"]
+		},
+		"currentPage": {
+			"type": "number",
+			"default": 1
+		},
+		"linkClassName": {
+			"type": "string",
+			"default": "dmg-read-more"
+		},
+		"paginationStyles": {
+			"type": "string",
+			"default": "dmg-read-more-editor-pagination"
+		}
+	},
+	"textdomain": "easy-read-more-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}
