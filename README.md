@@ -1,4 +1,4 @@
-# Dmg::Media Block Read More
+# Easy Read More Block
 
 WordPress plugin developed for read more.
 
